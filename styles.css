@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choices {
+    margin-bottom: 30px;
+}
+
+.choices button {
+    font-size: 3rem;
+    min-width: 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: rgb(198, 248, 255);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choices button:hover {
+    background-color: rgb(255, 255, 108);
+}
+#resultDisplay {
+    font-size: 3rem;
+    margin: 15px 0;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPSLS</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <h1>Rock/Paper/Scissors/Lizard/Spock</h1>
+    <div class = "choices">
+        <button onclick = "playGame('rock')">🪨</button>
+        <button onclick = "playGame('paper')">📃</button>
+        <button onclick = "playGame('scissors')">✂️</button>
+        <button onclick = "playGame('lizard')">🦎</button>
+        <button onclick = "playGame('spock')">👽</button>
+        <button onclick = "playGame('dynamite')">🧨</button>
+    </div>
+
+    <div id = "playerDisplay">PLAYER: </div>
+    <div id = "computerDisplay">COMPUTER: </div>
+    <div id = "resultDisplay"></div>
+
+    <p>
+        Exlpanation:<br>
+        • 🪨 > ✂️ 🦎 Rock beats scissors and lizard<br>
+        • 📃 > 🪨 👽 Paper beats rock and spock<br>
+        • ✂️ > 📃 🦎 Scissors beats paper and lizard<br>
+        • 🦎 > 📃 👽 Lizard beats paper and spock<br>
+        • 👽 > ✂️ 🪨 Spock beats scissors and rock<br>
+        • 🧨 > 🪨📃✂️🦎👽 Dynamite beats everything
+    </p>
+
+    <script src = "index.js"></script>
+</body>
+</html>
